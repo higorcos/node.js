@@ -26,7 +26,8 @@ function enviarEmail(msg, email){
       },4000)
   });
 }
-
+//async em arrow function
+//Go = async () => {}
 async function Go(){
   const Id = await pegarId();
   console.log(Id);
